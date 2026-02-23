@@ -1,0 +1,3 @@
+
+# See the class of apps currently open
+hyprctl clients -j | jq '.[].class'

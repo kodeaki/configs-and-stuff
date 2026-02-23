@@ -1,0 +1,6 @@
+
+In file /etc/grub.d/10_linux
+#changing version sort to use -V makes grub boot into latest instead of lts kernel
+#reverse_sorted_list=$(echo $list | tr ' ' '\n' | sed -e 's/\.old$/ 1/; / 1$/! s/$/ 2/' | version_sort -r | sed -e 's/ 1$/.old/; s/ 2$//')
+reverse_sorted_list=$(echo $list | tr ' ' '\n' | sed -e 's/\.old$/ 1/; / 1$/! s/$/ 2/' | version_sort -V | sed -e 's/ 1$/.old/; s/ 2$//')
+
