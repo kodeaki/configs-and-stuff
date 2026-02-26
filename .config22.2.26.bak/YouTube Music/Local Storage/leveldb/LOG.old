@@ -1,6 +1,0 @@
-2026/02/22-14:46:53.681 14fc Reusing MANIFEST /home/zenitsu/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
-2026/02/22-14:46:53.700 14fc Recovering log #6
-2026/02/22-14:46:53.701 14fc Reusing old log /home/zenitsu/.config/YouTube Music/Local Storage/leveldb/000006.log 
-2026/02/22-15:23:58.204 14ff Level-0 table #10: started
-2026/02/22-15:23:58.210 14ff Level-0 table #10: 11823 bytes OK
-2026/02/22-15:23:58.214 14ff Delete type=0 #6
